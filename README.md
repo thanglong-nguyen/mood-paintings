@@ -73,20 +73,26 @@ A custom wearable device built from scratch:
 ## How it works
 
 ```
+
 Finger/wrist → MAX30102 Sensor → XIAO ESP32
-                                      ↓
-                         BPM calculated (rolling 4-beat average)
-                         RMSSD calculated from RR intervals
-                         Personal baseline calibrated (first 10 beats)
-                         Mood classified against personal thresholds
-                                      ↓
-                            UDP packet over WiFi
-                            "BPM:72,RMSSD:44.3,MOOD:Calm"
-                                      ↓
-                         Processing visualiser (port 5005)
-                         Colour palette interpolated
-                         12 brush agents update speed + size
-                         Turbulence field responds
+
+↓
+
+BPM calculated (rolling 4-beat average)
+RMSSD calculated from RR intervals
+Personal baseline calibrated (first valid 10 beats)
+Mood classified against personal thresholds
+
+↓
+
+UDP packet over WiFi — `"BPM:72,RMSSD:44.3,MOOD:Calm"`
+
+↓
+
+Processing visualiser (port 5005)
+Colour palette interpolated
+12 brush agents update speed + size
+Turbulence field responds
 ```
 
 ---
