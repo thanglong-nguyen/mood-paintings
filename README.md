@@ -6,6 +6,22 @@ A MAX30102 pulse oximeter reads your heart rate and heart rate variability (HRV)
 
 ![Mood Paintings in action](assets/visualising.jpg)
 
+
+## Motivation
+
+> "Nếu không có gì xoa dịu được nỗi buồn của bạn,  
+> tôi mong nỗi buồn đó có thể xoa dịu chính bạn."
+>
+> *"If nothing can soothe your sadness,  
+> I hope sadness itself can soothe you."*
+
+Sometimes feelings are overwhelming and indescribable. Even when you feel them weighing
+heavily your chest, you don't know how to deal with them. This device doesn't offer a solution,
+but it offers something else: it visualises your feelings and turns them into artwork.
+
+When you look at your mood painting, my hope is that you find some comfort knowing 
+that even your most difficult and negative emotions can become something beautiful.
+
 ---
 
 ## Mood states
