@@ -151,7 +151,7 @@ const char* pcIP     = "YOUR_PC_IP_ADDRESS";  // ipconfig (Windows) / ifconfig (
 ### Processing
 
 1. Install [Processing 4](https://processing.org/download)
-2. Open `MoodVisualizer.pde`
+2. Open ` MoodPaintings.pde`
 3. Run — listens on UDP port 5005
 
 **Both devices must be on the same WiFi network.**
@@ -182,4 +182,4 @@ Presented at end-of-semester student Expo, Semester 1 2026
 ## Files
 
 - `mood_sensor.ino` — Arduino firmware: MAX30102 sensing, HRV/RMSSD computation, personal baseline calibration, WiFi UDP transmission
-- `MoodVisualizer.pde` — Processing sketch: real-time generative art, Perlin noise flow field, mood-reactive brush agents
+- ` MoodPaintings.pde` — Processing sketch: real-time generative art, Perlin noise flow field, mood-reactive brush agents
