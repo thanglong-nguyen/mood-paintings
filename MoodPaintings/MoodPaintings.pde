@@ -80,7 +80,6 @@ void setup() {
 // DRAW
 // ================================================================
 void draw() {
-  if (frameCount % 7200 == 0) background(255, 255, 255);
 
   receiveUDP();
 
